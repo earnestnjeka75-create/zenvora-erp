@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zenvora ERP</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f1f4f9;color:#17233b}
+header{background:#101d38;color:white;padding:22px}
+header h1{color:#51d9bb;margin:0;font-size:27px}
+header p{margin-bottom:0;color:#c5d1e2}
+main{max-width:1100px;margin:auto;padding:20px}
+h2{margin-bottom:5px}
+.subtitle{color:#68758a;margin-top:5px}
+button{background:#087e70;color:white;border:0;padding:13px 18px;border-radius:7px;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:22px}
+.card{background:white;padding:18px;border-radius:11px;box-shadow:0 2px 8px #0000000c}
+.card small{color:#69768a}
+.number{font-size:25px;font-weight:bold;margin-top:12px}
+.green{color:#079b78}
+.blue{color:#2868d8}
+.orange{color:#e58a24}
+.modules{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:15px}
+.module{background:white;padding:18px;border-radius:10px;border:1px solid #e2e8f0}
+.module b{display:block;margin-bottom:8px}
+.module small{color:#68758a}
+.section{margin-top:30px}
+footer{text-align:center;padding:25px;color:#758198;font-size:13px}
+@media(min-width:700px){
+.grid{grid-template-columns:repeat(4,1fr)}
+.modules{grid-template-columns:repeat(3,1fr)}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>ZENVORA</h1>
+<p>One Platform. Every Business. Everywhere.</p>
+</header>
+<main>
+<h2>Business Dashboard</h2>
+<p class="subtitle">Manage your business from one platform.</p>
+<button onclick="alert('Organization registration will be added in the next development stage.')">+ Add Organization</button>
+
+<div class="grid">
+<div class="card"><small>Total Revenue</small><div class="number green">KSh 0.00</div></div>
+<div class="card"><small>Total Expenses</small><div class="number orange">KSh 0.00</div></div>
+<div class="card"><small>Customers</small><div class="number blue">0</div></div>
+<div class="card"><small>Products</small><div class="number">0</div></div>
+</div>
+
+<div class="section">
+<h2>Business Applications</h2>
+<p class="subtitle">Explore the Zenvora modules.</p>
+<div class="modules">
+<div class="module"><b>💰 Accounting</b><small>Financial management</small></div>
+<div class="module"><b>📦 Inventory</b><small>Products and stock</small></div>
+<div class="module"><b>🛒 Sales</b><small>Orders and invoices</small></div>
+<div class="module"><b>👥 CRM</b><small>Customer management</small></div>
+<div class="module"><b>🧾 Procurement</b><small>Suppliers and purchasing</small></div>
+<div class="module"><b>👨‍💼 Human Resources</b><small>Employees and payroll</small></div>
+<div class="module"><b>🏭 Manufacturing</b><small>Production management</small></div>
+<div class="module"><b>📊 Reports</b><small>Business analytics</small></div>
+<div class="module"><b>⚙️ Settings</b><small>Business configuration</small></div>
+</div>
+</div>
+
+<div class="section card">
+<h2>About Zenvora</h2>
+<p>A modular enterprise resource planning platform designed to connect business operations worldwide.</p>
+<p><b>Version:</b> 0.1.0</p>
+<p><b>Status:</b> Initial prototype</p>
+</div>
+</main>
+<footer>© 2026 Zenvora ERP</footer>
+</body>
+</html>
+
